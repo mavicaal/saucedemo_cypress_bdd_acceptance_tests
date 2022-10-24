@@ -1,5 +1,30 @@
 {
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "step_definitions/**/*.{js,ts}",
+    "filterSpecs": true,
+    "omitFiltered": true
+  },
   "dependencies": {
-    "cypress": "^10.10.0"
-  }
+    "cypress": "^10.10.0",
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@cypress/webpack-preprocessor": "^5.12.0"
+  },
+  "name": "saucedemo_cypress_bdd_acceptance_tests",
+  "description": "Cypress playground to practice automation tests using BDD approach",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavicaal/saucedemo_cypress_bdd_acceptance_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavicaal/saucedemo_cypress_bdd_acceptance_tests/issues"
+  },
+  "homepage": "https://github.com/mavicaal/saucedemo_cypress_bdd_acceptance_tests#readme"
 }
